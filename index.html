@@ -3,6 +3,13 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles.css" />
     <title>Image Slider</title>
   </head>
@@ -10,18 +17,22 @@
     <div class="wrapper">
       <div class="slider-wrapper">
         <div class="slider">
-          <img id="image-1" src="images/image-1.jpg" alt="" />
-          <img id="image-2" src="images/image-2.jpg" alt="" />
-          <img id="image-3" src="images/image-3.jpg" alt="" />
-          <img id="image-4" src="images/image-4.jpg" alt="" />
+          <img src="images/image-1.jpg" alt="allianz arena stadium" />
+          <img src="images/image-2.jpg" alt="allianz arena stadium" />
+          <img src="images/image-3.jpg" alt="allianz arena stadium" />
+          <img src="images/image-4.jpg" alt="allianz arena stadium" />
+          <img src="images/image-5.jpg" alt="allianz arena stadium" />
         </div>
         <div class="controls">
-          <a class="dot" href="#image-1"></a>
-          <a class="dot" href="#image-2"></a>
-          <a class="dot" href="#image-3"></a>
-          <a class="dot" href="#image-4"></a>
+          <a class="prev">
+            <i class="fa-solid fa-chevron-left"></i>
+          </a>
+          <a class="next">
+            <i class="fa-solid fa-chevron-right"></i>
+          </a>
         </div>
       </div>
     </div>
+    <script src="script.js"></script>
   </body>
 </html>
